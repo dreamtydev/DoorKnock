@@ -1,0 +1,91 @@
+door_sounds:
+  oak:
+    normal: "block.wood.place"
+    soft: "block.wood.step"
+    volume: 3.0
+    pitch: 1.0
+  spruce:
+    normal: "block.wood.place"
+    soft: "block.wood.step"
+    volume: 3.0
+    pitch: 1.0
+  birch:
+    normal: "block.wood.place"
+    soft: "block.wood.step"
+    volume: 3.0
+    pitch: 1.0
+  jungle:
+    normal: "block.wood.place"
+    soft: "block.wood.step"
+    volume: 3.0
+    pitch: 1.0
+  acacia:
+    normal: "block.wood.place"
+    soft: "block.wood.step"
+    volume: 3.0
+    pitch: 1.0
+  dark_oak:
+    normal: "block.wood.place"
+    soft: "block.wood.step"
+    volume: 3.0
+    pitch: 1.0
+  mangrove:
+    normal: "block.wood.place"
+    soft: "block.wood.step"
+    volume: 3.0
+    pitch: 1.0
+  cherry:
+    normal: "block.cherry_wood.place"
+    soft: "block.cherry_wood.step"
+    volume: 3.0
+    pitch: 1.0
+  bamboo:
+    normal: "block.bamboo_wood.place"
+    soft: "block.bamboo_wood.step"
+    volume: 3.0
+    pitch: 1.0
+  crimson:
+    normal: "block.wood.place"
+    soft: "block.wood.step"
+    volume: 3.0
+    pitch: 1.0
+  warped:
+    normal: "block.wood.place"
+    soft: "block.wood.step"
+    volume: 3.0
+    pitch: 1.0
+  iron:
+    normal: "block.iron.place"
+    soft: "block.metal.step"
+    volume: 1.5
+    pitch: 1.0
+  copper:
+    normal: "block.copper.hit"
+    soft: "block.copper.place"
+    volume: 1.0
+    pitch: 1.0
+  pale:
+    normal: "block.wood.hit"
+    soft: "block.wood.place"
+    volume: 3.0
+    pitch: 1.0
+
+knock_variations:
+  soft_knock:
+    volume_multiplier: 0.3
+    pitch_multiplier: 0.8
+
+distance_settings:
+  max_hear_distance: 16.0
+  volume_falloff: 0.1
+
+messages:
+  reload: "<#6eff94>✂ &7» &fConfiguration reloaded successfully!"
+  no_permission: "<#6eff94>✂ &7» &cYou don't have permission to use this command!"
+
+debug:
+  enabled: false
+  log_knocks: false
+
+metrics:
+  enabled: true

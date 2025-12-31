@@ -1,0 +1,18 @@
+name: DoorKnock
+version: '1.0-release'
+main: net.thedreamty.doorKnock.DoorKnock
+api-version: '1.21'
+description: 'Adds knock sounds to doors with variations and permissions'
+author: TheDreamty
+website: 'https://github.com/thedreamty/DoorKnock'
+
+permissions:
+  doorknock.knock:
+    description: 'Allows player to knock on doors'
+    default: true
+  doorknock.hear:
+    description: 'Allows player to hear door knocks'
+    default: true
+  doorknock.admin:
+    description: 'Allows admin commands like reload'
+    default: op

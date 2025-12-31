@@ -1,0 +1,18 @@
+name: DoorKnock
+version: '1.0-release'
+main: net.thedreamty.doorKnock.DoorKnock
+api-version: '1.21'
+description: 'Adds interactive door sounds to enhance immersion and player interaction.'
+author: TheDreamty
+folia-supported: true
+
+permissions:
+  doorknock.knock:
+    description: 'Allows player to knock on doors'
+    default: true
+  doorknock.hear:
+    description: 'Allows player to hear door knocks'
+    default: true
+  doorknock.admin:
+    description: 'Allows admin commands like reload'
+    default: op
